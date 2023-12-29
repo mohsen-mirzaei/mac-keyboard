@@ -1,12 +1,12 @@
-Body {
+body {
     background-color: #001C30;
-    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 button {
     height: 3rem;
     width: 3rem;
-    margin: 5px;
+    margin: 0.3rem;
     border-radius: 0.3rem;
     border: 0;
 }
@@ -25,6 +25,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 3rem;
 }
 
 .keyboard > * {
